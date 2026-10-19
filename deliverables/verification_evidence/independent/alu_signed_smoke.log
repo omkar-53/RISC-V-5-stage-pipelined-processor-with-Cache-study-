@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# xsim v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Thu Oct 15 14:50:16 2026
+# Process ID         : 14264
+# Current directory  : C:/Users/omkar/Documents/ChatGPT/risc-v project/build/rtl_independent_verification/alu_signed_smoke
+# Command line       : xsim.exe -mode tcl -source {xsim.dir/alu_signed_smoke/xsim_script.tcl}
+# Log file           : C:/Users/omkar/Documents/ChatGPT/risc-v project/build/rtl_independent_verification/alu_signed_smoke/xsim.log
+# Journal file       : C:/Users/omkar/Documents/ChatGPT/risc-v project/build/rtl_independent_verification/alu_signed_smoke\xsim.jou
+# Running On         : om
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz
+# CPU Frequency      : 2688 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 8299 MB
+# Swap memory        : 11017 MB
+# Total Virtual      : 19316 MB
+# Available Virtual  : 4363 MB
+#-----------------------------------------------------------
+source xsim.dir/alu_signed_smoke/xsim_script.tcl
+# xsim {alu_signed_smoke} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+SIGNED_DIV_SMOKE a=fffffff9 b=00000003 y=fffffffe
+$finish called at time : 1 ns : File "C:/Users/omkar/Documents/ChatGPT/risc-v project/rtl_independent/alu_signed_smoke_tb.sv" Line 10
+exit
+INFO: [Common 17-206] Exiting xsim at Thu Oct 15 14:50:18 2026...

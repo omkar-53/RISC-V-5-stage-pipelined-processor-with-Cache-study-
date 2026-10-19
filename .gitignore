@@ -1,0 +1,29 @@
+# Vivado/XSim generated runs and caches
+.Xil/
+**/*.runs/
+**/*.cache/
+**/*.hw/
+**/*.sim/
+**/*.ip_user_files/
+xsim.dir/
+*.jou
+*.pb
+*.wdb
+*.dmp
+*.str
+
+# Local generated build output and logs
+/build/
+/logs/
+/xsim*.log
+/xvlog.log
+/xelab.log
+/vivado.log
+/vivado_*.log
+
+# Local backup bundles and editor/OS files
+*.zip
+*.backup.*
+Thumbs.db
+Desktop.ini
+~$*

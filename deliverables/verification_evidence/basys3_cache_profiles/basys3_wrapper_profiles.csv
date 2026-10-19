@@ -1,0 +1,13 @@
+workload,working_set_words,configuration,cache_lines,victim,backing_wait_cycles,cycles,loads,stores,hits,misses,stall_cycles,expected_result,status
+reuse4,4,bypass_immediate,16,0,0,232,64,3,0,0,0,416,PASS
+reuse4,4,bypass_equal_wait4,16,0,4,488,64,3,0,0,256,416,PASS
+reuse4,4,cache4,4,0,0,248,64,3,60,4,16,416,PASS
+reuse4,4,cache16,16,0,0,248,64,3,60,4,16,416,PASS
+reuse4,4,cache32,32,0,0,248,64,3,60,4,16,416,PASS
+reuse4,4,cache16_victim,16,1,0,248,64,3,60,4,16,416,PASS
+stream32,32,bypass_immediate,16,0,0,619,64,3,0,0,0,1056,PASS
+stream32,32,bypass_equal_wait4,16,0,4,875,64,3,0,0,256,1056,PASS
+stream32,32,cache4,4,0,0,875,64,3,0,64,256,1056,PASS
+stream32,32,cache16,16,0,0,875,64,3,0,64,256,1056,PASS
+stream32,32,cache32,32,0,0,747,64,3,32,32,128,1056,PASS
+stream32,32,cache16_victim,16,1,0,875,64,3,0,64,256,1056,PASS

@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# xsim v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Thu Oct 15 14:49:57 2026
+# Process ID         : 9608
+# Current directory  : C:/Users/omkar/Documents/ChatGPT/risc-v project/build/rtl_independent_verification/load_branch
+# Command line       : xsim.exe -mode tcl -source {xsim.dir/load_branch/xsim_script.tcl}
+# Log file           : C:/Users/omkar/Documents/ChatGPT/risc-v project/build/rtl_independent_verification/load_branch/xsim.log
+# Journal file       : C:/Users/omkar/Documents/ChatGPT/risc-v project/build/rtl_independent_verification/load_branch\xsim.jou
+# Running On         : om
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz
+# CPU Frequency      : 2688 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 8299 MB
+# Swap memory        : 11017 MB
+# Total Virtual      : 19316 MB
+# Available Virtual  : 4393 MB
+#-----------------------------------------------------------
+source xsim.dir/load_branch/xsim_script.tcl
+# xsim {load_branch} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+LOAD_BRANCH_DIAGNOSTIC,x1=1,x2=42,interlock=1,redirect=0
+LOAD_BRANCH_DIAGNOSTIC_PASS
+$finish called at time : 380 ns : File "C:/Users/omkar/Documents/ChatGPT/risc-v project/deliverables/RISC_V_Capstone_Intelligence_Package/benchmarks/load_to_branch_diagnostic_tb.sv" Line 44
+exit
+INFO: [Common 17-206] Exiting xsim at Thu Oct 15 14:49:59 2026...

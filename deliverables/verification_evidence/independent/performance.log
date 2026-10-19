@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# xsim v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Thu Oct 15 14:50:04 2026
+# Process ID         : 11456
+# Current directory  : C:/Users/omkar/Documents/ChatGPT/risc-v project/build/rtl_independent_verification/performance
+# Command line       : xsim.exe -mode tcl -source {xsim.dir/performance/xsim_script.tcl}
+# Log file           : C:/Users/omkar/Documents/ChatGPT/risc-v project/build/rtl_independent_verification/performance/xsim.log
+# Journal file       : C:/Users/omkar/Documents/ChatGPT/risc-v project/build/rtl_independent_verification/performance\xsim.jou
+# Running On         : om
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz
+# CPU Frequency      : 2688 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 8299 MB
+# Swap memory        : 11017 MB
+# Total Virtual      : 19316 MB
+# Available Virtual  : 4396 MB
+#-----------------------------------------------------------
+source xsim.dir/performance/xsim_script.tcl
+# xsim {performance} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+PERF_RESULT,independent_alu_16,16,19,0,0,0,0,0,0
+PERF_CHECK_PASS,independent_alu_16,16 registers
+PERF_RESULT,dependent_alu_16,16,19,16,0,0,0,0,0
+PERF_CHECK_PASS,dependent_alu_16,x1=16
+PERF_RESULT,cache_loaduse_6,6,15,3,2,0,1,1,4
+PERF_CHECK_PASS,cache_loaduse_6,registers memory and events
+PERF_RESULT,taken_branch_loop_8,8,15,7,0,2,0,0,0
+PERF_CHECK_PASS,taken_branch_loop_8,x1=3 and two redirects
+CURRENT_RTL_PERFORMANCE_PASS: 4 finite programs
+$finish called at time : 880 ns : File "C:/Users/omkar/Documents/ChatGPT/risc-v project/deliverables/RISC_V_Capstone_Intelligence_Package/benchmarks/current_rtl_perf_tb.sv" Line 137
+exit
+INFO: [Common 17-206] Exiting xsim at Thu Oct 15 14:50:06 2026...

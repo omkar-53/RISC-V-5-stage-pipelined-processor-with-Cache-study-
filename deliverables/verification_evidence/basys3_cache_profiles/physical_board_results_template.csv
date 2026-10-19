@@ -1,0 +1,13 @@
+workload,working_set_words,configuration,expected_result,displayed_cycles_hex,displayed_loads_hex,displayed_hits_hex,displayed_misses_hex,displayed_stall_cycles_hex,displayed_stores_hex,displayed_redirects_hex,LED15_PASS,LED10_EBREAK,board_photo,post_route_LUTs,post_route_registers,BRAM_tiles,DSPs,WNS_ns,timing_met,notes,status
+reuse4,4,bypass_immediate,416,,,,,,,,,,,,,,,,,,PENDING
+reuse4,4,bypass_equal_wait4,416,,,,,,,,,,,,,,,,,,PENDING
+reuse4,4,cache4,416,,,,,,,,,,,,,,,,,,PENDING
+reuse4,4,cache16,416,,,,,,,,,,,,,,,,,,PENDING
+reuse4,4,cache32,416,,,,,,,,,,,,,,,,,,PENDING
+reuse4,4,cache16_victim,416,,,,,,,,,,,,,,,,,,PENDING
+stream32,32,bypass_immediate,1056,,,,,,,,,,,,,,,,,,PENDING
+stream32,32,bypass_equal_wait4,1056,,,,,,,,,,,,,,,,,,PENDING
+stream32,32,cache4,1056,,,,,,,,,,,,,,,,,,PENDING
+stream32,32,cache16,1056,,,,,,,,,,,,,,,,,,PENDING
+stream32,32,cache32,1056,,,,,,,,,,,,,,,,,,PENDING
+stream32,32,cache16_victim,1056,,,,,,,,,,,,,,,,,,PENDING
